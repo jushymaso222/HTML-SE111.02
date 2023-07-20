@@ -1,0 +1,30 @@
+h1 {
+    color: rgb(97, 197, 84);
+    font-family: "JetBrains Mono";
+    font-size: 24px;
+    border: 1px;
+    border-style: solid;
+    border-color: red;
+}
+
+body {
+    border: 5px;
+    border-style: solid;
+    border-color: blue;
+}
+
+h5 {
+    border: 1px;
+    border-style: solid;
+    border-color: violet;
+}
+
+#lists {
+    border: 2px;
+    border-style: solid;
+    border-color: yellow;
+}
+
+ul {
+    list-style: square;
+}
