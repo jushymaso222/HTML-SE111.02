@@ -1,6 +1,20 @@
+* {
+    font-family: "JetBrains Mono"
+}
+
 h1 {
-    color: aqua;
-    border: 1px;
+    color: rgb(41, 41, 209);
+    border: 3px;
     border-style: solid;
-    border-color: blue;
+    border-color: rgb(55, 179, 204);
+    text-align: center;
+}
+
+h2 {
+    color: rgb(55, 21, 135);
+    text-align: left;
+}
+
+p {
+    font-size: 18px;
 }
