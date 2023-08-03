@@ -6,14 +6,16 @@
     margin-left:auto;
     margin-right:auto;
     display:block;
+    border: 2px solid azure;
 
 }
 
 .button {
 
-    background-color: #4CAF50; /* Green */
+    background-color: #3c7a90; /* Green */
     border: none;
-    color: white;
+    color: azure;
+    font-family: "JetBrains Mono";
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -28,7 +30,7 @@
 
 .button:hover {
 
-    background-color: #368038; /* Green */
+    background-color: #2f6072; /* Green */
 
 }
 
@@ -36,8 +38,68 @@
 
     font-family: "JetBrains Mono";
     text-align: center;
-    background-color:gray;
+    background-color:#121212;
+    position:relative;
+    color: azure;
+    height:50px;
+
+}
+
+#nav {
+
+    padding:5px;
+    margin-bottom:10px;
+
+}
+
+body {
+
     margin:0px;
-    padding:0px;
+    background-color:#332f37;
+
+}
+
+html {
+
+    background-color:#121212;
+
+}
+
+h2, h3 {
+
+    font-family: "JetBrains Mono";
+    font-size: 25px;
+    color: azure;
+
+}
+
+.centertext {
+
+    text-align:center;
+
+}
+
+#bio {
+
+    color:#3c7a90;
+
+}
+
+p {
+
+    font-family: "JetBrains Mono";
+    font-size: 16px;
+    color: azure;
+
+}
+
+#school, #hobbies {
+
+    display: inline-block;
+    width: 49%;
+    text-align:center;
+    color:#3c7a90;
+    height: 500px;
+    margin:0px
 
 }
