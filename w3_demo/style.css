@@ -1,0 +1,33 @@
+div {/*applies to all divs in the page*/
+
+    border:1px solid black;
+    padding:10px; /*space added between element content and border*/
+    margin:5px; /*space added outside of element's border*/
+}
+
+#wrapper {/*select element by ID: only element with this id is affected*/
+
+    border:1px solid red;
+
+}
+
+.border {/*select elements by CLASS: only elements with this class value are affected [group]*/
+
+    border: 2px solid darkslategray;
+
+}
+
+#footer, #header, #nav {
+
+    text-align:center;
+
+}
+
+.center {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+}
