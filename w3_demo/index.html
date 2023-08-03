@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 3 Demo</title>
+    <meta name="author" content="Josh">
+    <meta name="description" content="W3 Demo">
+
+    <!--IN DOCUMENT STYLING: can style all elements in page-->
+    <style>
+        
+        /*We are now writing in CSS*/
+
+        /*SELECTION in CSS or Javascript:
+            selecting an element(s) within the page to do something with them ( Styling, actions, applying buttons or functions)
+
+            SELECTION can occur through three main ways:
+
+                *TAG NAME - all tags of this type take the style
+
+                *ID VALUE - only the element with that id takes the style
+
+                *CLASS VALUE - 
+        */
+
+        /* ANATOMY OF CSS CODE BLOCKS:
+
+            selector {
+                property: value,
+            }
+        */
+
+        div {/*applies to all divs in the page*/
+
+            border:1px solid black;
+            padding:10px; /*space added between element content and border*/
+            margin:5px; /*space added outside of element's border*/
+        }
+
+        #wrapper {/*select element by ID: only element with this id is affected*/
+
+            border:1px solid red;
+
+        }
+
+        a {
+            text-align:center;
+        }
+
+    </style>
+
+</head>
+<!--IN-LINE STYLING: only applies to this specific element (and its contents)-->
+<body style="background-color:rgb(192, 191, 191)">
+    <div id="wrapper">
+
+        <!--HEADER-->
+        <div id="header">
+            
+            <h1 id="title" class="fancy">The Last of Us</h1>
+
+        </div><!--/#header-->
+
+        <!--NAV-->
+        <div id="nav">
+
+            <!--IN-SITE RELATIVE LINKS: to other pages we have made within the site-->
+            <a href="index.html">| HOME |</a>
+            <a href="">| ABOUT |</a>
+            <a href="">| PEOPLE |</a>
+            <a href="">| PLACES |</a>
+
+            <br>
+
+            <!--EXTERNAL LINK: goes outside of site's domain-->
+            <a href="https://www.hbo.com/the-last-of-us" target="_blank">| OFFICIAL HBO Site |</a>
+
+            <br>
+
+            <!--IN-PAGE JUMP LINK: jumps to a section of a page [fragment]-->
+            <a href="#footer">| BOTTOM OF PAGE |</a>
+
+            <br>
+
+        </div><!--/#nav-->
+
+        <!--CONTENT-->
+        <div id="content">
+
+        </div><!--/#content-->
+
+        <!--FOOTER-->
+        <div id="footer">
+            
+        </div><!--/#footer-->
+
+    </div><!--/#wrapper--> 
+</body>
+</html>
