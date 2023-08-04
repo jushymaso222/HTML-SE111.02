@@ -1,13 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="style.css">
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>W3 Bio Page</title>
     <meta name="author" content="Josh">
-    <meta name="description" content="W3 Bio Page">
+    <meta name="description" content="W2 Bio Page">
 </head>
 <body>
     
+    <div id="wrapper">
+        <div id="header">
+            <a href="/index.html"><img src="images/back2.png" alt="Back" id="backbutton"></a>
+            <h1 style="display:inline-block;">Joshua Mason - About Me</h1>
+        </div>
+
+        <div id="nav">
+            <button onclick="window.location.href='index.html';" class="button">Bio</button>
+            <button onclick="window.location.href='school.html';" class="button">Schooling</button>
+            <button onclick="window.location.href='hobbies.html';" class="button">Hobbies</button>
+            <button onclick="window.location.href='#footer';" class="button">Bottom of Page</button>
+        </div>
+
+        <hr>
+
+        <div id="content">
+            <img src="images/icon.jpg" alt="Profile Icon" class="profile">
+            <h2 id="bio" class="centertext">Bio</h2>
+                <p class="centertext">Hi, my name is Joshua! I am a software engineer and an avid video game enthusiast. I am 20 years old and have lived in Warwick, RI my whole life. I originally wanted to become an aerospace engineer, focusing on the field of space travel, but have since decided to alter my path and become a software engineer instead. I originally got into software from <em>Minecraft</em> in a mod called ComputerCraft. The mod allows you to make your own programs in LUA and since there were so many possibilities for it within the game, it quickly became my jumping off point for computer science.</p>
+        </div>
+
+
+        <div id="footer">
+            <h3 style="display:inline-block;">&copy;J Mason | SE111.02 | 202340</h3>
+            <h3 style="display:inline-block; margin-left:50px;"><a href="#header">Back to TOP</a></h3>
+        </div>
+    </div>
+
+
 </body>
 </html>
