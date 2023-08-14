@@ -11,11 +11,14 @@
 
 #header { /*Header Design*/
 
+    background-image: url("../images/tech.png");
+    background-size: 100%;
     text-align: center;
     font-family: "JetBrains Mono";
+    font-size: 25px;
     vertical-align: top;
-    background-color:#121212;
-    color: azure;
+    color: rgb(128, 28, 174);
+    text-shadow: 2px 2px 10px rgba(0,0,0,0.8);
 
 }
 
@@ -28,7 +31,7 @@ h1 { /*Main Page Title*/
 
 .button { /*Button Design*/
 
-    background-color: #3c7a90; /* Green */
+    background-color: #860e88; /* Green */
     border: none;
     color: azure;
     font-family: "JetBrains Mono";
@@ -40,12 +43,14 @@ h1 { /*Main Page Title*/
     margin: 0 10px;
     width: 23%;
     border-radius: 5px;
+    transition: .3s;
 
 }
 
 .button:hover { /*Button Hover Color*/
 
-    background-color: #2f6072; /* Green */
+    background-color: #682ec5; /* Green */
+    transition: .3s;
 
 }
 
@@ -71,7 +76,7 @@ h3 { /*Footer Header*/
 
 a { /*Links*/
 
-    color:aquamarine;
+    color: #7b0f85;
     font-family: "JetBrains Mono";
 
 }
@@ -79,12 +84,53 @@ a { /*Links*/
 body { /*Main Page Color*/
 
     margin:0px;
-    background-color:#332f37;
+    background-color:#333;
 
 }
 
 html { /*Header/ Footer Background*/
 
     background-color:#121212;
+
+}
+
+.member {
+
+    background-color: #4c214d;
+    border: 5px solid #860e88;
+    margin-top: 15px;
+    width: 30%;
+    margin-left: 18px;
+    margin-right: 18px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 10px;
+    color: azure;
+
+}
+
+.headshot {
+
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    object-fit: cover;
+    object-position: center;
+    border: 2px solid azure;
+
+}
+
+.member2 {
+
+    background-color: #4c214d;
+    border: 5px solid #860e88;
+    margin-top: 15px;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+    border-radius: 10px;
+    color: azure;
 
 }
